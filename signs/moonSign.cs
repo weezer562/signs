@@ -9,15 +9,15 @@ namespace Signs
 {
     public class MoonSigns
     {
-        public static void moonSignReturn()
+        public void moonSignReturn(int month)
         {
             string aSign = "";
-            Birthday birthday = new Birthday();
+            //Birthday birthday = new Birthday();
             
-            switch (birthday.dobMonth)
+            switch (month)
           {
                 case 1:
-                    if ( birthday.dobDay > 20)
+                    if ( month > 20)
                     {
                         aSign = "Aquarius";
                     }
@@ -27,7 +27,7 @@ namespace Signs
                     }
                     break;
                 case 2:
-                    if (birthday.dobDay > 18)
+                    if (month > 18)
                     {
                         aSign = "Pisces";
                     }
@@ -37,7 +37,7 @@ namespace Signs
                     }
                     break;
                 case 3:
-                    if (birthday.dobDay > 20)
+                    if (month > 20)
                     {
                         aSign = "Aries";
                     }
@@ -47,7 +47,7 @@ namespace Signs
                     }
                     break;
                 case 4:
-                    if (birthday.dobDay > 19)
+                    if (month > 19)
                     {
                         aSign = "Taurus";
                     }
@@ -57,7 +57,7 @@ namespace Signs
                     }
                     break;
                 case 5:
-                    if (birthday.dobDay > 20)
+                    if (month > 20)
                     {
                         aSign = "Gemini";
                     }
@@ -67,7 +67,7 @@ namespace Signs
                     }
                     break;
                 case 6:
-                    if (birthday.dobDay > 20)
+                    if (month > 20)
                     {
                         aSign = "Cancer";
                     }
@@ -77,7 +77,7 @@ namespace Signs
                     }
                     break;
                 case 7:
-                    if (birthday.dobDay > 22)
+                    if (month > 22)
                     {
                         aSign = "Leo";
                     }
@@ -87,7 +87,7 @@ namespace Signs
                     }
                     break;
                 case 8:
-                    if (birthday.dobDay > 22)
+                    if (month > 22)
                     {
                         aSign = "Virgo";
                     }
@@ -97,7 +97,7 @@ namespace Signs
                     }
                     break;
                 case 9:
-                    if (birthday.dobDay > 22)
+                    if (month > 22)
                     {
                         aSign = "Libra";
                     }
@@ -107,7 +107,7 @@ namespace Signs
                     }
                     break;
                 case 10:
-                    if (birthday.dobDay > 22)
+                    if (month > 22)
                     {
                         aSign = "Scorpio";
                     }
@@ -117,7 +117,7 @@ namespace Signs
                     }
                     break;
                 case 11:
-                    if (birthday.dobDay > 21)
+                    if (month > 21)
                     {
                         aSign = "Sagittarius";
                     }
@@ -127,7 +127,7 @@ namespace Signs
                     }
                     break;
                 case 12:
-                    if (birthday.dobDay > 20)
+                    if (month > 20)
                     {
                         aSign = "Capricorn";
                     }
@@ -142,7 +142,8 @@ namespace Signs
                
 
              }//end switch
-           
+
+            Console.WriteLine("Your Astrological Sign is " + aSign);
     }//end class
     }
 }

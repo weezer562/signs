@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Signs
 {
     public class Birthday
@@ -52,17 +53,13 @@ namespace Signs
             }
 
 
-
             //output age
             Console.WriteLine("You are " + age + " years old!");
             
             
-
-
             //output users Astrological signs , western and chinese
             MoonSigns moonsigns = new MoonSigns();
-
-            moonsigns.MoonSignReturn();
+            moonsigns.moonSignReturn(birthday.dobMonth);
           
             
            // Console.WriteLine("Your Astrological Sign is " + aSign);
