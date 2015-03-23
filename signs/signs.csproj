@@ -41,13 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="birthday.cs" />
-    <Compile Include="cnSign.cs" />
-    <Compile Include="moonSign.cs" />
+    <Compile Include="Controllers\birthday.cs" />
+    <Compile Include="Services\cnSign.cs" />
+    <Compile Include="Services\moonSign.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Validation\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

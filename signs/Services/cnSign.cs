@@ -56,7 +56,7 @@ namespace Signs
                     break;
             }
 
-            Console.WriteLine("Your Chinese Sign is " + zodiac);
+            Console.WriteLine("Your Chinese Sign is a " + zodiac);
         }//end class
     }
 }
