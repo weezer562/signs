@@ -39,7 +39,7 @@ namespace Signs
             
             //output users Astrological signs , western and chinese
             MoonSigns moonsigns = new MoonSigns();
-            moonsigns.moonSignReturn(birthday.dobMonth);
+            moonsigns.moonSignReturn(birthday.dobDay, birthday.dobMonth);
           
             
            // Console.WriteLine("Your Astrological Sign is " + aSign);

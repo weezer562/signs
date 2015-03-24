@@ -9,7 +9,7 @@ namespace Signs
 {
     public class MoonSigns
     {
-        public void moonSignReturn(int month)
+        public void moonSignReturn(int day, int month)
         {
             string aSign = "";
             //Birthday birthday = new Birthday();
@@ -17,7 +17,7 @@ namespace Signs
             switch (month)
           {
                 case 1:
-                    if ( month > 20)
+                    if ( day > 20)
                     {
                         aSign = "Aquarius";
                     }
@@ -27,7 +27,7 @@ namespace Signs
                     }
                     break;
                 case 2:
-                    if (month > 18)
+                    if (day > 18)
                     {
                         aSign = "Pisces";
                     }
@@ -37,7 +37,7 @@ namespace Signs
                     }
                     break;
                 case 3:
-                    if (month > 20)
+                    if (day > 20)
                     {
                         aSign = "Aries";
                     }
@@ -47,7 +47,7 @@ namespace Signs
                     }
                     break;
                 case 4:
-                    if (month > 19)
+                    if (day > 19)
                     {
                         aSign = "Taurus";
                     }
@@ -57,7 +57,7 @@ namespace Signs
                     }
                     break;
                 case 5:
-                    if (month > 20)
+                    if (day > 20)
                     {
                         aSign = "Gemini";
                     }
@@ -67,7 +67,7 @@ namespace Signs
                     }
                     break;
                 case 6:
-                    if (month > 20)
+                    if (day > 20)
                     {
                         aSign = "Cancer";
                     }
@@ -77,7 +77,7 @@ namespace Signs
                     }
                     break;
                 case 7:
-                    if (month > 22)
+                    if (day > 22)
                     {
                         aSign = "Leo";
                     }
@@ -87,7 +87,7 @@ namespace Signs
                     }
                     break;
                 case 8:
-                    if (month > 22)
+                    if (day > 22)
                     {
                         aSign = "Virgo";
                     }
@@ -97,7 +97,7 @@ namespace Signs
                     }
                     break;
                 case 9:
-                    if (month > 22)
+                    if (day > 22)
                     {
                         aSign = "Libra";
                     }
@@ -107,7 +107,7 @@ namespace Signs
                     }
                     break;
                 case 10:
-                    if (month > 22)
+                    if (day > 22)
                     {
                         aSign = "Scorpio";
                     }
@@ -117,7 +117,7 @@ namespace Signs
                     }
                     break;
                 case 11:
-                    if (month > 21)
+                    if (day > 21)
                     {
                         aSign = "Sagittarius";
                     }
@@ -127,7 +127,7 @@ namespace Signs
                     }
                     break;
                 case 12:
-                    if (month > 20)
+                    if (day > 20)
                     {
                         aSign = "Capricorn";
                     }
