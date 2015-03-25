@@ -39,13 +39,14 @@ namespace Signs
             
             //output users Astrological signs , western and chinese
             MoonSigns moonsigns = new MoonSigns();
-            moonsigns.moonSignReturn(birthday.dobDay, birthday.dobMonth);
+            string msign = moonsigns.moonSignReturn(birthday.dobDay, birthday.dobMonth);
+            Console.WriteLine("Your Astrological Sign is " + msign);
           
             
            // Console.WriteLine("Your Astrological Sign is " + aSign);
             CNSigns cnsigns = new CNSigns();
-            cnsigns.cnSignReturn(birthday.dobYear);
-           
+            string zodiac = cnsigns.cnSignReturn(birthday.dobYear);
+            Console.WriteLine("Your Chinese Sign is a " + zodiac);
         }
 
         private void getBirthday(ref int month, ref int day, ref int year)

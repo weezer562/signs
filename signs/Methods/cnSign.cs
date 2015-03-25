@@ -9,7 +9,7 @@ namespace Signs
 {
     public class CNSigns
     {
-        public void cnSignReturn(int year)
+        public string cnSignReturn(int year)
         {
             string zodiac = "";
 
@@ -56,7 +56,7 @@ namespace Signs
                     break;
             }
 
-            Console.WriteLine("Your Chinese Sign is a " + zodiac);
+            return zodiac;
         }//end class
     }
 }

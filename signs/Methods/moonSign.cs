@@ -9,7 +9,7 @@ namespace Signs
 {
     public class MoonSigns
     {
-        public void moonSignReturn(int day, int month)
+        public string moonSignReturn(int day, int month)
         {
             string aSign = "";
             //Birthday birthday = new Birthday();
@@ -142,8 +142,8 @@ namespace Signs
                
 
              }//end switch
-
-            Console.WriteLine("Your Astrological Sign is " + aSign);
+            return aSign;
+            
     }//end class
     }
 }

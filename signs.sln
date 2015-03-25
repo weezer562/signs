@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "signs", "signs\signs.csproj", "{C4881ADF-0782-402B-99FD-ECF984632C4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Signs.Test", "UnitTestProject1\Signs.Test.csproj", "{4CFF8C75-29D0-475F-987C-78B152E07279}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{8147074B-695D-420B-8B70-11FFDC43D3FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +19,15 @@ Global
 		{C4881ADF-0782-402B-99FD-ECF984632C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4881ADF-0782-402B-99FD-ECF984632C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4881ADF-0782-402B-99FD-ECF984632C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CFF8C75-29D0-475F-987C-78B152E07279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CFF8C75-29D0-475F-987C-78B152E07279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CFF8C75-29D0-475F-987C-78B152E07279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CFF8C75-29D0-475F-987C-78B152E07279}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4CFF8C75-29D0-475F-987C-78B152E07279} = {8147074B-695D-420B-8B70-11FFDC43D3FA}
 	EndGlobalSection
 EndGlobal
