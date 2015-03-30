@@ -23,7 +23,7 @@ namespace Signs
 
             DateTime birthdayDate = new DateTime(birthday.dobYear, birthday.dobMonth, birthday.dobDay);
             String.Format("{0:M/d/yyy}", birthday);
-            //Console.WriteLine("Your birthday is on: " + birthday);
+            Console.WriteLine("Your birthday is on: " + birthdayDate);
 
             //find age of user (years)
             TimeSpan actualAge = today - birthdayDate;
